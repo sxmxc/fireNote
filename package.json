@@ -9,7 +9,7 @@
   "homepage": "http://www.firepad.io/",
   "repository": {
     "type": "git",
-    "url": "https://github.com/firebase/firepad.git"
+    "url": "git+https://github.com/firebase/firepad.git"
   },
   "bugs": {
     "url": "https://github.com/firebase/firepad/issues"
@@ -63,5 +63,10 @@
     "travis": "grunt",
     "dev": "grunt watch",
     "build": "grunt build"
-  }
+  },
+  "directories": {
+    "example": "examples",
+    "test": "test"
+  },
+  "license": "ISC"
 }
